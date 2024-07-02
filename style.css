@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+.h1-header{
+    text-align: center;
+}
+
+.flex-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
