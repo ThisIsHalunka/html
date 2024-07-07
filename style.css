@@ -1,35 +1,63 @@
 body{
-    margin: 0;
     padding: 0;
-}
-.div{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    width: fit-content;
-    max-width: 100%;
+    margin: 0;
 }
 
-.pr{
-    font-size: 1.5em;
-    font-family: "Anton SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.header{
+    height: 80px;
+    background-color: grey;
 }
 
-.hdr {
-    font-size: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-p{
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top: 5px solid grey;
-    border-bottom: 5px solid grey;
-    border-radius: 15px;
+a,ul{
+    text-decoration: none;
 }
 
-h1{
-    margin-top: 10px;
+li{
+    list-style: none;
+    margin-top: 30px;
+    color: beige;
+    font-size: 1.35em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.p-container{
+    border: 3px solid red;
+    margin-right: 50px;
+}
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100vh; /* Висота на весь екран */
+}
+
+img{
+    height: 250px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: grey;
+    color: beige;
+    text-align: center;
+}
+
+.footer-p{
+    margin-top: 30px;
+    font-size: 1.35em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
