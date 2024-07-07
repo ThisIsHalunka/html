@@ -38,11 +38,21 @@ li{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    height: 100vh; /* Висота на весь екран */
+    height: 80vh; /* Висота на весь екран */
 }
 
 img{
     height: 250px;
+}
+
+.img-container{
+    margin-left: 25px;
+}
+
+.p{
+    border: 2px solid red;
+    padding: 50px;
+    margin-right: 25px;
 }
 
 footer{
